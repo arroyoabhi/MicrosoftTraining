@@ -3,7 +3,7 @@ ALTER PROCEDURE usp_itemsinpricerange
 @maxprice decimal(10,2)
 AS
 BEGIN
-	SET NOCOUNT ON;
+	
 SELECT company,  
 COUNT(*) as "numberofitems"
 from 
