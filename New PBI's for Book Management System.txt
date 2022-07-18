@@ -1,0 +1,211 @@
+User Stories:-
+
+Task-1:-
+
+Story:- Creation of Dtabase for Book Management System
+
+Description:- 
+
+As a Developer, I have to create Database in Sql Server Management Studio, 
+so that I can be able to add the required data in tables like Book and Book Type.
+Using These tables I can be able to add the details to thes tables like.
+
+In Book Table I want to add details like
+(
+(Book Id wil be Int and generated automatically by using Identity(1,1)
+  Book Name  with (Varchar(100)),
+  Book Author with (Varchar(100)), 
+  Book Pages with (Int),
+ Book Type with (Int),
+ published date with (date))
+
+In Book Type table I want to add details Like
+(BookType Id wil be Int and generated automatically by using Identity(1,1)
+(BookType description(Varchar(200))
+
+In type of book I have to add only(Adventure, Finance, History, Story and Novel)
+
+Acceptance Criteria:-
+
+Using Sql Server Database , We want to add data to the tables in Sql Database and its should be a preloaded data to user.
+
+
+Task-2:-
+
+Story:-Creation of Database in Visual Studio for Book Management System.
+
+Description:-
+
+As a Developer,I have to Create a new solution in Visual Studio using Sql Server Database project,
+In this we use Sql Connection to fetch the data from  the Database to Visual Studio.
+
+Acceptance Criteria:-
+
+using Visual Studio, We can add new data to the existing Database from the Visual Studio by using publish Option.
+We can also make changes to the existing Data in the Database from Visual Studio.
+
+
+Task-3:-
+
+Story:-Creating Api App with .Net 6.0 & solution with more than one layer.
+
+Description:-
+
+As a Developer, I have to create WebApi in Visual Studio with more than one Layer,
+By using Wep Api we can see the output in the Localhost.
+
+Acceptance Criteria:-
+
+Using WebApi in Visual, We can implement the connection between WebApi and Database.
+In Dependences we can add reference from one layer to another layer.
+User Should be able to get the out put from the "Local Host".
+
+Task-4:-
+
+Story:-"CRUD" operations by using Entity Frame work.
+
+Description:-
+
+As a Developer, I have to write a program to perform CRUD operations to the data in the Database.
+By using Entity Frame work we can interact to Database.
+So that user can perform different types of operations on the selected data in the Database.
+We can map four main Http methods like Get, Put, Post and Delete to do CRUD operations.
+
+Acceptance Criteria:-
+
+User should be able to interface to the Book Management System.
+User should be able to do:-
+
+-> Get all Book(table) records
+->Insert new Book record to the existing Database
+->Update any Book record in the existing Database
+->Delete any Book record from the existing Datbase
+
+-> Get all BookType(table) records
+->Insert new BookType record to the existing Database
+->Update any BookType record in the existing Database
+->Delete any BookType record from the existing Datbase
+
+Task-5:-
+
+Story:-User Should be able search for a Book by Book type and published date.
+
+Description:-
+
+As a Developer, I have to write a program to display the Book records to the user in Local Host,
+By taking input parameters like Book type and published date from the user,
+So that user can be able to search the book of his selction.
+
+
+Acceptance Criteria:-
+
+User Should be able to search the Book based on Book type and published date in Local Host
+User should be able to pass parameters like Book type and Published date in the Local host
+After passing required parameters, User should be able to see Book records in the Local Host based on his selection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
