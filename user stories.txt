@@ -3,7 +3,7 @@
 
 1) User should be able to add Laptop details to database.
 
-Description : User should be able to enter Laptop details like below
+Description : As a developer I would  able to enter Laptop details like below
 
 company- 1,2,3 varchar(30),
 hard disk size-160gb,120gb varchar(40),
@@ -11,6 +11,10 @@ processor-i3,i5 varchar(30),
 ram size-3,4 int,
 owner-names varchar(50),
 price-money decimal(10,2).
+
+Acceptance criteria : 
+
+1- open ssms(
 
 2) User should be able to add Company details.
 
