@@ -5,20 +5,20 @@
 
 Description : User should be able to enter Laptop details like below
 
-company- 1,2,3,
-hard disk size-160gb,120gb,
-processor-i3,i5,
-ram size-3,4,
-owner-names,
-price-money
+company- 1,2,3 varchar(30),
+hard disk size-160gb,120gb varchar(40),
+processor-i3,i5 varchar(30),
+ram size-3,4 int,
+owner-names varchar(50),
+price-money decimal(10,2).
 
 2) User should be able to add Company details.
 
 Description : User should able to enter Company details like below
 
-name- H.P,DELL,
-address-kuatpally,hyderabad,
-phone-9670768435.
+name- H.P,DELL varchar(40),
+address-kuatpally,hyderabad varchar(70),
+phone-9670768435 varchar(20).
 
 3) User should be able to give the price range.
 
