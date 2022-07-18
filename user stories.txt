@@ -14,15 +14,23 @@ price-money decimal(10,2).
 
 Acceptance criteria : 
 
-1- open ssms(
+1- open SSMS(sql server management studio) create a table for Laptop
+2- added the required columns for Laptop table
+3- insert the values into Laptop table
 
 2) User should be able to add Company details.
 
-Description : User should able to enter Company details like below
+Description : As a developer I would be able to enter Company details like below
 
 name- H.P,DELL varchar(40),
 address-kuatpally,hyderabad varchar(70),
 phone-9670768435 varchar(20).
+
+Acceptance criteria :
+
+1- open SSMS(sql server management studio) create a table for Company
+2- added the required columns for Company table
+3- insert the values into Company table
 
 3) User should be able to give the price range.
 
