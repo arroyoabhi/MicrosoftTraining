@@ -1,0 +1,32 @@
+                                    USER STORIES FOR LMS(laptop management system)
+
+
+1) User should be able to add Laptop details to database.
+
+Description : User should be able to enter Laptop details like below
+
+company- 1,2,3,
+hard disk size-160gb,120gb,
+processor-i3,i5,
+ram size-3,4,
+owner-names,
+price-money
+
+2) User should be able to add Company details.
+
+Description : User should able to enter Company details like below
+
+name- H.P,DELL,
+address-kuatpally,hyderabad,
+phone-9670768435.
+
+3) User should be able to give the price range.
+
+Description: User should have a interface to give the required price values like below
+
+min price-20000/-
+max price-50000/-
+
+4) User should be able to search copanies vs number of items based on given price range.
+
+Description : User must be able to see how many companies and number of items are there between the given price values
